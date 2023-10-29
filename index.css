@@ -74,11 +74,6 @@ body{
     }
 
 }
-@media(min-width:1000px){
-    .avat{
-        scale: 1.5;
-    }
-}
 .navd{
     display: flex;
     position: relative;
@@ -86,6 +81,7 @@ body{
 }
 .avat{
     gap: 20px;
+    display: flex;
 }
 .avatar{
     border-radius: 50%;
